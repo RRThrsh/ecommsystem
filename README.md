@@ -1,6 +1,6 @@
 # E-commsystem
 
-Clone Repo::
+🚀 Installation
 ```
 git clone https://github.com/RRThrsh/ecommsystem.git
 ```
