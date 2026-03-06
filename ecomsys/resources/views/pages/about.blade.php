@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,8 +13,7 @@
     @section('content')
 
     <!-- Input main content here -->
-    <h1 class="text-3xl font-bold text-center">Welcome to my Laravel site!</h1>
-
+    <h1>Welcome to about page</h1>
 
     @endsection
 </body>
