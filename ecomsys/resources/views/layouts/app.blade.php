@@ -6,7 +6,7 @@
     <title>@yield('title', 'My Laravel App')</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="font-sans">
     <header>
         <!-- TODO:: Add Humburger for mobile -->
         <nav class="flex justify-between items-center px-40 py-6">
