@@ -8,19 +8,20 @@
 </head>
 <body class="font-sans">
     <header>
-        <!-- TODO:: Design the navigation bar -->
-        <nav class="flex justify-between items-center p-4 text-xl font-semibold">
+        <!-- TODO:: Add Humburger for mobile -->
+        <nav class="flex justify-between items-center px-40 py-6">
             <ul>
                 <li>
-                    <h2>logo</h2>
+                    <h1 class="text-4xl font-serif font-bold">ThinkPad</h1>
                 </li>
             </ul>
-            <ul class="flex justify-between items-center gap-4">
-                <li><a href="{{ url('welcome') }}">Home</a></li>
-                <li><a href="{{ url('/pages/about') }}">About</a></li>
-                <li><a href="{{ url('/pages/contact') }}">Contact</a></li>
+            <ul class="flex justify-between items-center gap-8 text-gray-500 text-xl font-medium font-serif">
+                <li class="hover:text-gray-900 hover:underline-offset-8 hover:underline"><a href="{{ url('welcome') }}">Home</a></li>
+                <li class="hover:text-gray-900 hover:underline-offset-8 hover:underline"><a href="{{ url('/pages/about') }}">About</a></li>
+                <li class="hover:text-gray-900 hover:underline-offset-8 hover:underline"><a href="{{ url('/pages/contact') }}">Contact</a></li>
             </ul>
         </nav>
+        <hr class="my-2 border-gray-300">
     </header>
 
     <main>
