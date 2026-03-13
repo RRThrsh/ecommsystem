@@ -12,7 +12,7 @@
         <nav class="flex justify-between items-center px-6 md:px-40 pt-6 pb-4">
 
             <!-- Logo -->
-            <h1 class="text-3xl md:text-4xl font-serif font-bold">ThinkPad</h1>
+            <img src="{{ asset('img/logo.png') }}" alt="Thinkpad" class="h-10 w-auto">
 
             <!-- Desktop Menu -->
             <ul class="hidden md:flex gap-8 text-gray-500 text-xl font-medium font-serif">
@@ -53,7 +53,7 @@
         @yield('content')
     </main>
 
-    <footer class="h-96 bg-gray-800 mt-10 justify-center">
+    <footer class="h-96 bg-gray-800 justify-center">
         <!-- Footer Content -->
         <div class="text-white">
             
