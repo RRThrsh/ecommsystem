@@ -23,25 +23,22 @@
         </div>
     </section>
 
-    <!-- Card Section -->
+    <!-- Features -->
     <section class="bg-gray-100 py-10">
-        <div class="container mx-auto px-6 md:px-40">
-            <h2 class="text-3xl md:text-4xl font-serif font-bold text-center mb-10">Explore Our Features</h2>
+        <div class="container mx-auto px-6 md:px-40 py-10">
+            <h2 class="text-3xl md:text-4xl font-serif font-bold text-center mb-10">Key Features</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Card 1 -->
                 <div class="bg-white rounded-lg shadow-md p-6">
-                    <h3 class="text-xl font-semibold mb-4">Feature One</h3>
-                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h3 class="text-xl font-semibold mb-4">Comprehensive Reviews</h3>
+                    <p class="text-gray-700">In-depth reviews of the latest ThinkPad models, covering performance, design, and usability.</p>
                 </div>
-                <!-- Card 2 -->
                 <div class="bg-white rounded-lg shadow-md p-6">
-                    <h3 class="text-xl font-semibold mb-4">Feature Two</h3>
-                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h3 class="text-xl font-semibold mb-4">Expert Analysis</h3>
+                    <p class="text-gray-700">Expert insights and analysis on the latest trends in the laptop industry.</p>
                 </div>
-                <!-- Card 3 -->
                 <div class="bg-white rounded-lg shadow-md p-6">
-                    <h3 class="text-xl font-semibold mb-4">Feature Three</h3>
-                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h3 class="text-xl font-semibold mb-4">User Guides</h3>
+                    <p class="text-gray-700">Comprehensive user guides to help you get the most out of your ThinkPad.</p>
                 </div>
             </div>
         </div>
@@ -53,21 +50,77 @@
             <h2 class="text-3xl md:text-4xl font-serif font-bold text-center mb-10">Pros and Cons</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <!-- Pros -->
-                <div class="bg-green-100 rounded-lg shadow-md p-6">
+                <div class="bg-green-200 rounded-lg shadow-md p-6 font-serif">
                     <h3 class="text-xl font-semibold mb-4">Pros</h3>
-                    <ul class="list-disc list-inside text-gray-700">
-                        <li>High performance and reliability.</li>
-                        <li>Wide range of models to choose from.</li>
-                        <li>Excellent build quality.</li>
+                    <ul class="list-disc list-inside text-gray-800">
+                        <div class="bg-green-400 rounded-lg shadow-md p-2 m-3">
+                            <li class="text-lg font-semibold">Excellent build quality</li>
+                            <p>– Many models use magnesium or carbon fiber and pass military-grade durability tests.</p>
+                        </div>
+
+                        <div class="bg-green-400 rounded-lg shadow-md p-2 m-3">
+                            <li class="text-lg font-semibold">Legendary keyboard</li>
+                            <p>– One of the best laptop keyboards for developers, writers, and heavy typers.</p>
+                        </div>
+
+                        <div class="bg-green-400 rounded-lg shadow-md p-2 m-3">
+                            <li class="text-lg font-semibold">Great reliability</li>
+                            <p>– ThinkPads are known for long lifespan and stable performance.</p>
+                        </div>
+
+                        <div class="bg-green-400 rounded-lg shadow-md p-2 m-3">
+                            <li class="text-lg font-semibold">Business-class security features</li>
+                            <p>– Options like fingerprint reader, TPM, and privacy shutter.</p>
+                        </div>
+
+                        <div class="bg-green-400 rounded-lg shadow-md p-2 m-3">
+                            <li class="text-lg font-semibold">Linux-friendly</li>
+                            <p>– Many developers prefer ThinkPads because Linux runs very well on them.</p>
+                        </div>
+
+                        <div class="bg-green-400 rounded-lg shadow-md p-2 m-3">
+                            <li class="text-lg font-semibold">Upgradeable components (on some models)</li>
+                            <p>– RAM and SSD upgrades are possible in certain series.</p>
+                        </div>
+
+                        <div class="bg-green-400 rounded-lg shadow-md p-2 m-3">
+                            <li class="text-lg font-semibold">TrackPoint navigation</li>    
+                            <p>– The red TrackPoint in the keyboard allows precise cursor control without using the touchpad.</p>
+                        </div>
                     </ul>
                 </div>
                 <!-- Cons -->
-                <div class="bg-red-100 rounded-lg shadow-md p-6">
+                <div class="bg-red-200 rounded-lg shadow-md p-6 font-serif">
                     <h3 class="text-xl font-semibold mb-4">Cons</h3>
-                    <ul class="list-disc list-inside text-gray-700">
-                        <li>Higher price point compared to competitors.</li>
-                        <li>Limited gaming capabilities.</li>
-                        <li>Some models can be bulky.</li>
+                    <ul class="list-disc list-inside text-gray-800">
+                        <div class="bg-red-400 rounded-lg shadow-md p-2 m-3">
+                            <li class="text-lg font-semibold">Higher price compared to similar laptops</li>
+                            <p>– Business-class hardware often costs more.</p>
+                        </div>
+
+                        <div class="bg-red-400 rounded-lg shadow-md p-2 m-3">
+                            <li class="text-lg font-semibold">Design can look plain or outdated.</li>
+                            <p>– The classic black design is not as flashy as other brands</p>
+                        </div>
+
+                        <div class="bg-red-400 rounded-lg shadow-md p-2 m-3">
+                            <li class="text-lg font-semibold">Limited gaming capability</li>
+                            <p>– Most models focus on productivity rather than gaming GPUs.</p>
+                        </div>
+
+                        <div class="bg-red-400 rounded-lg shadow-md p-2 m-3">
+                            <li class="text-lg font-semibold">Some models are bulky</li>
+                            <p>– Especially older or workstation models like the P-series.</p>
+                        </div>
+
+                        <div class="bg-red-400 rounded-lg shadow-md p-2 m-3">
+                            <li class="text-lg font-semibold">Speakers and display may be average on certain models compared to premium ultrabooks.</li>
+                        </div>
+
+                        <div class="bg-red-400 rounded-lg shadow-md p-2 m-3">
+                            <li class="text-lg font-semibold">Battery life varies by model</li>
+                            <p>– High-performance versions may drain faster.</p>
+                        </div>
                     </ul>
                 </div>
             </div>
